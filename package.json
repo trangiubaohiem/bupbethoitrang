@@ -1,0 +1,32 @@
+{
+  "name": "game-vibecoding",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "oxlint",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@capacitor/core": "^8.5.2",
+    "canvas": "^3.2.3",
+    "canvas-confetti": "^1.9.4",
+    "howler": "^2.2.4",
+    "jimp": "^1.6.1",
+    "jpeg-js": "^0.4.4",
+    "lucide-react": "^1.45.0",
+    "pngjs": "^7.0.0",
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8",
+    "xlsx": "^0.18.5"
+  },
+  "devDependencies": {
+    "@types/react": "^19.2.18",
+    "@types/react-dom": "^19.2.7",
+    "@vitejs/plugin-react": "^6.1.1",
+    "oxlint": "^1.81.0",
+    "vite": "^8.3.0"
+  }
+}
